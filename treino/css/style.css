@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background-image: url(../img/melhores-teclados-para-programar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 56px;
+    margin-bottom: 1rem;
+}
+
+.title p {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+
+.cat-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 800px;
+    border-radius: 50px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cat-container {
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+}
+
+.big, .footer i {
+    z-index: 2;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.big:hover {
+    animation: pulso 1s infinite;
+}
+
+@keyframes pulso {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#separador img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.big {
+    padding: 1rem;
+    width: 25%;
+    font-size: 100px;
+    margin: 30px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+}
+
+/* Media query */
+@media screen and (max-width: 500px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* ao contrário */
+@media screen and (min-width: 800px) {
+    p {
+        background-color: aqua;
+    }
+}
+
+/* Landscape */
+h3 {
+    display: none;
+}
+
+@media screen and (orientation: landscape) and (max-width: 500px){
+    h3 {
+        display: block;
+    }
+}

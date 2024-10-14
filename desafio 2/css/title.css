@@ -1,0 +1,17 @@
+#box-model {
+    background-color: #451667;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    padding: 10px 20px;
+    border: 20px solid rgb(59, 15, 51);
+    border-radius: 10px;
+    outline: 4px solid red;
+}
+
+
+h2 {
+    background-color: #adfeac;
+    color: white;
+    border: none;
+}
